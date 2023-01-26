@@ -1,3 +1,4 @@
+using System;
 using API.Data;
 using API.Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -36,6 +37,7 @@ namespace API.Controllers
             var thingToReturn = thing.ToString();
 
             return thingToReturn;
+            
         }
 
         [HttpGet("bad-request")]
